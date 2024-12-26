@@ -25,5 +25,5 @@
 - Trade Crypto on UBX
 
 
-[GitHub](https://github.com/ubitex/api-ubitex.com)
+[GitHub](https://github.com/ubx-one/API)
 [Get Started](/en/README.md)

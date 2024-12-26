@@ -25,5 +25,5 @@
 - 加密交易，就来UbitEx
 
 
-[GitHub](https://github.com/ubitex/api-ubitex.com)
+[GitHub](https://github.com/ubx-one/API)
 [Get Started](/zh-cn/)
