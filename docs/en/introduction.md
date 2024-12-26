@@ -410,5 +410,5 @@ Defines how long an order remains valid
 
 # Support
 
-Get support in our Telegram group: [UBX API Support Group](https://t.me/UbitEx_UB)
+Get support in our Telegram group: [UBX API Support Group](https://t.me/UBX_Official)
 For inquiries, please consult our online customer service.

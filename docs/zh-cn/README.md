@@ -9,5 +9,5 @@
 
 
 - 客户服务
-  在我们的电报组中获取支持:  [UBX API Support Group](https://t.me/UbitEx_UB)
+  在我们的电报组中获取支持:  [UBX API Support Group](https://t.me/UBX_Official)
   如有疑问请咨询在线客服
