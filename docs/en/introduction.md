@@ -1,6 +1,6 @@
 # REST API
 
-> `Domain`: `https://api.ubitex.com`
+> `Domain`: `https://api.ubxai.vip`
 
 ----
 
@@ -49,7 +49,7 @@ To ensure data security for UBX's open APIs, including protection against data t
 
 ## Signature Generation
 
-For example, with `https://api.ubitex.com/v1/spot`:
+For example, with `https://api.ubxai.vip/v1/spot`:
 Here’s how you can use `echo`, `openssl`, and `curl` in a Linux bash environment to call an API for placing an order:
 
 Example `appKey` and `secret`:
@@ -130,7 +130,7 @@ validate-algorithms=HmacSHA256&validate-appkey=2fa91add-388c-44f2-8365-f4b72886c
 - Request example:
 
 ```shell
-curl --location --request POST 'https://api.ubitex.com/v1/spot/order' \
+curl --location --request POST 'https://api.ubxai.vip/v1/spot/order' \
 --header 'Content-Type: application/json' \
 --header 'validate-algorithms: HmacSHA256' \
 --header 'validate-appkey: 2fa91add-388c-44f2-8365-f4b72886c135' \
@@ -138,7 +138,7 @@ curl --location --request POST 'https://api.ubitex.com/v1/spot/order' \
 --header 'validate-timestamp: 1725455266041' \
 --header 'validate-signature: ce246607785e168d4677afff5af3746eb8513133d11ca3c5e3913eeea5aca63c' \
 --header 'Accept: */*' \
---header 'Host: api.ubitex.com' \
+--header 'Host: api.ubxai.vip' \
 --header 'Connection: keep-alive' \
 --data-raw '{"symbol":"BTC_USDT","clientOrderId":"16559590087220001","side":"BUY","type":"LIMIT","timeInForce":"FOK","bizType":"SPOT","price":40000,"quantity":2,"media":"btok","mediaChannel":"12345"}'
 ```

@@ -1,6 +1,6 @@
 # REST API
 
-> `域名`:  `https://api.ubitex.com`
+> `域名`:  `https://api.ubxai.vip`
 
 ----
 
@@ -55,7 +55,7 @@ apiKey限流示例说明：`50/s/apiKey`，表示每个apiKey每秒该接口请�
 
 ## 签名生成
 
-以 https://api.ubitex.com/v1/spot 为例  
+以 https://api.ubxai.vip/v1/spot 为例  
 以下是在linux bash环境下使用 echo openssl 和curl工具实现的一个调用接口下单的示例
 
 appkey、secret仅供示范:
@@ -176,7 +176,7 @@ validate-algorithms=HmacSHA256&validate-appkey=2fa91add-388c-44f2-8365-f4b72886c
 - 请求报文样例：
 
 ```shell
-curl --location --request POST 'https://api.ubitex.com/v1/spot/order' \
+curl --location --request POST 'https://api.ubxai.vip/v1/spot/order' \
 --header 'Content-Type: application/json' \
 --header 'validate-algorithms: HmacSHA256' \
 --header 'validate-appkey: 2fa91add-388c-44f2-8365-f4b72886c135' \
@@ -184,7 +184,7 @@ curl --location --request POST 'https://api.ubitex.com/v1/spot/order' \
 --header 'validate-timestamp: 1725455266041' \
 --header 'validate-signature: ce246607785e168d4677afff5af3746eb8513133d11ca3c5e3913eeea5aca63c' \
 --header 'Accept: */*' \
---header 'Host: api.ubitex.com' \
+--header 'Host: api.ubxai.vip' \
 --header 'Connection: keep-alive' \
 --data-raw '{"symbol":"BTC_USDT","clientOrderId":"16559590087220001","side":"BUY","type":"LIMIT","timeInForce":"FOK","bizType":"SPOT","price":40000,"quantity":2,"media":"btok","mediaChannel":"12345"}'
 ```

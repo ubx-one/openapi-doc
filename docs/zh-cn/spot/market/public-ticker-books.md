@@ -15,9 +15,9 @@
 > 请求示例
 
 ```shell
-curl --location --request GET 'https://api.ubitex.com/v1/spot/public/ticker/book?symbol=btc_usdt&symbols=&tags' \
+curl --location --request GET 'https://api.ubxai.vip/v1/spot/public/ticker/book?symbol=btc_usdt&symbols=&tags' \
 --header 'Accept: */*' \
---header 'Host: api.ubitex.com' \
+--header 'Host: api.ubxai.vip' \
 --header 'Connection: keep-alive' 
 ```
 

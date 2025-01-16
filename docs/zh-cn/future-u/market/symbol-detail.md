@@ -13,9 +13,9 @@
 > 请求示例
 
 ```shell
-curl --location --request GET 'https://api.ubitex.com/v1/future-u/market/public/symbol/detail?symbol=btc_usdt' \
+curl --location --request GET 'https://api.ubxai.vip/v1/future-u/market/public/symbol/detail?symbol=btc_usdt' \
 --header 'Accept: */*' \
---header 'Host: api.ubitex.com' \
+--header 'Host: api.ubxai.vip' \
 --header 'Connection: keep-alive'
 ```
 

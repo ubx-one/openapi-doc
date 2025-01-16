@@ -17,9 +17,9 @@ Note：This method does not require a signature.
 > Request Example
 
 ```shell
-curl --location --request GET 'https://api.ubitex.com/v1/spot/public/kline?symbol=btc_usdt&interval=1m&startTime&endTime&limit=5' \
+curl --location --request GET 'https://api.ubxai.vip/v1/spot/public/kline?symbol=btc_usdt&interval=1m&startTime&endTime&limit=5' \
 --header 'Accept: */*' \
---header 'Host: api.ubitex.com' \
+--header 'Host: api.ubxai.vip' \
 --header 'Connection: keep-alive' 
 ```
 
